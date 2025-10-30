@@ -6,7 +6,7 @@ from collections import defaultdict
 
 model = YOLO('yolo11l.pt')
 class_list = model.names
-cap = cv2.VideoCapture('./test video_1.mp4')
+cap = cv2.VideoCapture('./test_2.mp4')
 
 # Get Video Properties
 frame_width = int(cap.get(3))  # Width
@@ -80,4 +80,3 @@ cap.release()
 out.release()
 cv2.destroyAllWindows()
 print(f"Processed video saved as {output_path}")
-
