@@ -1,5 +1,4 @@
 Tiến độ:
-model retrain quá nặng ko tải lên được
 nội dung chương 1,3,4,5,6,7 đang sửa lại
 
 ## 📂 Thiết lập chương trình
@@ -14,7 +13,7 @@ pip install ultralytics opencv-python numpy torch torchvision torchaudio
 
 ### 2️⃣ Tải model YOLO11
 
-Tải xuống file **YOLO11**  (`yolo11l.pt`) từ [link này](https://docs.ultralytics.com/models/yolo11/#performance-metrics),vào trang và kéo xuống dưới cho tới khi gặp được mục  "🔥Performance" sau đó chọn vào mục model YOLO11l để tải file.Cuối cùng,đặt file model YOLO11l vào thư mục dự án
+Tải xuống file **custom_YOLO11**  (`custom_yolo`) từ [link này]([https://docs.ultralytics.com/models/yolo11/#performance-metrics](https://drive.google.com/drive/folders/1chvausLrXTiJF6I0vgMg24F9iq1hbOA8)) để tải f.Cuối cùng,đặt file model YOLO11l vào thư mục dự án
 
 
 
