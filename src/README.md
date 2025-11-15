@@ -1,3 +1,7 @@
+Tiến độ:
+model retrain quá nặng ko tải lên được
+nội dung chương 1,3,4,5,6,7 đang sửa lại
+
 ## 📂 Thiết lập chương trình
 
 ### 1️⃣ Cài đặt python và thư viện
