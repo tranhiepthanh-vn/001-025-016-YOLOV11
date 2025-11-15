@@ -13,7 +13,7 @@ pip install ultralytics opencv-python numpy torch torchvision torchaudio
 
 ### 2️⃣ Tải model YOLO11
 
-Tải xuống file **custom_YOLO11**  (`custom_yolo`) từ [link này](https://drive.google.com/drive/folders/1chvausLrXTiJF6I0vgMg24F9iq1hbOA8) để tải f.Cuối cùng,đặt file model YOLO11l vào thư mục dự án
+Tải xuống file **custom_YOLO11**  (`custom_yolo`) từ [link này](https://drive.google.com/drive/folders/1chvausLrXTiJF6I0vgMg24F9iq1hbOA8).Cuối cùng,đặt file model YOLO11l vào thư mục dự án
 
 
 
