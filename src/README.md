@@ -30,4 +30,3 @@ python main.py
 ## 🎯 Thiết lập
 
 - Thay đổi video Input ở dòng `cap = cv2.VideoCapture('./test_2.mp4')`.
-- Điều chỉnh `line_y_red = 430` để thay đổi vị trí đường dây đỏ
