@@ -26,7 +26,6 @@ python main.py
 **Với**
 - **Input:** file video bạn muốn đưa vào
 - **Output:** Hoàn thành và lưu lại dưới file tên `output_video.mp4`
-- **Hình ảnh hóa:** Hiển thị kết quả theo dõi với các hộp giới hạn và số lượng
 
 ## 🎯 Thiết lập
 
