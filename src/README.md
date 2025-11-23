@@ -1,5 +1,5 @@
 Tiến độ:
-nội dung chương 3,4,5,6,7 đang sửa lại
+nội dung chương 3,4,5,6 đang sửa lại
 
 ## 📂 Thiết lập chương trình
 
