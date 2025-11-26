@@ -6,7 +6,7 @@ from collections import defaultdict
 import numpy as np
 
 # Load YOLO model
-model = YOLO('custom_yolo')
+model = YOLO(r'D:\CODER\python\custom_yolo\weights\best.pt')
 class_list = model.names
 
 # Load video (đảm bảo đúng đường dẫn)
@@ -37,7 +37,7 @@ while cap.isOpened():
         break
 
     # YOLO tracking
-    results = model.track(frame, persist=True, classes=[1, 2, 3, 5, 6, 7])
+    results = model.track(frame, persist=True)
 
     if results[0].boxes is not None and len(results[0].boxes) > 0:
         boxes = results[0].boxes.xyxy.cpu().numpy()
@@ -91,3 +91,4 @@ cap.release()
 out.release()
 cv2.destroyAllWindows()
 print(f"✅ File video đã lưu: {output_path}")
+
